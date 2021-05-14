@@ -51,7 +51,6 @@ export default {
     addToDo() {
       this.existingToDo.push({
         text: this.newToDo,
-        // id: new Date().valueOf()
       }),
         (this.newToDo = "");
     },

@@ -2,7 +2,7 @@
   <div
     class="w-24 md:w-auto container h-100 w-full min-h-screen flex items-center justify-center bg-teal-lightest font-sans"
   >
-    <div class="bg-white rounded shadow p-6 m-4 w-full lg:w-3/4 lg:max-w-lg">
+    <div class="container bg-white rounded shadow p-6 m-4 w-full lg:w-3/4 lg:max-w-lg">
       <div class="mb-4">
         <h1 class="text-grey-darkest">Kauppalista</h1>
         <div class="flex mt-4">
@@ -12,7 +12,7 @@
             v-model="newToDo"
           />
           <button
-            class="flex-no-shrink p-2 border-2 rounded text-teal border-teal hover:text-white hover:bg-teal"
+            class="flex-no-shrink p-2 border-2 rounded text-teal border-teal"
             v-on:click="addToDo()"
           >
             Add
@@ -27,7 +27,7 @@
         >
           <span class="w-full text-grey-darkest">{{ todo.text }}</span>
           <button
-            class="flex-no-shrink p-2 ml-2 border-2 rounded text-red border-red hover:text-white hover:bg-red"
+            class="flex-no-shrink border-red-500 p-2 ml-2 border-2 rounded text-red hover:text-white hover:bg-red"
             @click="deleteToDo()"
           >
             Remove

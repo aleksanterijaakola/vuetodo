@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-24 md:w-auto container h-100 w-full min-h-screen flex items-center justify-center bg-teal-lightest font-sans"
+    class="w-24 md:w-auto h-100 w-full min-h-screen flex items-center justify-center bg-teal-lightest font-sans"
   >
     <div class="container bg-white rounded shadow p-6 m-4 w-full lg:w-3/4 lg:max-w-lg">
       <div class="mb-4">
